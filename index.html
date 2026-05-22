@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <title>Document</title>
+</head>
+<body>
+   <nav>
+      <h1 class="logo-brand">m.shico</h1>
+      <i id="hamburger-menu" class="fa-solid fa-bars"></i>
+      <ul>
+         <li><a href="#hero">home</a></li>
+         <li><a href="#skills">skills</a></li>
+         <li><a href="#friends">frieds</a></li>
+         <li><a href="#contact">contact</a></li>
+      </ul>
+   </nav>
+   
+   <!-- section hero -->
+   <section id="hero" class="hero">
+      <div class="home-img">
+         <div class="image">
+            <img src="/photos/pfp1_fe1e0a17e8.jpg" alt="profile" />
+         </div>
+         <div class="content">
+            <h1>hi <i class="fa-solid fa-hand"></i> </h1>
+            <p class="text1">
+               my name is 
+            </p>
+            <span class="text2">
+               m.shico
+            </span>
+            <span class="text3">
+               and I'm <span id="dynamic-text">Full-Stack Developer</span>
+            </span>
+         </div>
+         <div class="home-social">
+            <i class="bx bxl-whatsapp"></i>
+            <i class="bx bxl-telegram"></i>
+            <i class="bx bxl-facebook"></i>
+         </div>
+      </div>
+   </section>
+   
+   <!-- section skills -->
+   <section id="skills" class="skills">
+      <h1>My Skills</h1>
+      <div class="main">
+         <div class="skill" id="skill1">
+            <i class="devicon-html5-plain colored"></i>
+            <p>HTML</p>
+            <span>75%</span>
+         </div>
+         <div class="skill" id="skill2">
+            <i class="devicon-css3-plain colored"></i>
+            <p>CSS</p>
+            <span>50%</span>
+         </div>
+         <div class="skill" id="skill3">
+            <i class="devicon-javascript-plain colored"></i>
+            <p>JAVASCRIPT</p>
+            <span>30%</span>
+         </div>
+      </div>
+   </section>
+   
+   <!-- section friends -->
+   <section id="friends" class="friends">
+      <h1>my friends</h1>
+      <div class="friend" id="friend1">
+         <div class="image">
+            <img src="/photos/image2.jpg" alt="">
+         </div>
+         <p>abdi samih</p>
+         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, distinctio architecto molestias corrupti id corporis.</span>
+      </div>
+      <div class="friend" id="friend2">
+         <div class="image">
+            <img src="/photos/image2.jpg" alt="">
+         </div>
+         <p>bashir</p>
+         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, distinctio architecto molestias corrupti id corporis.</span>
+      </div>
+      <div class="friend" id="friend3">
+         <div class="image">
+            <img src="/photos/image2.jpg" alt="">
+         </div>
+         <p>mahamoud</p>
+         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, distinctio architecto molestias corrupti id corporis.</span>
+      </div>
+      <div class="friend" id="friend4">
+         <div class="image">
+            <img src="/photos/image2.jpg" alt="">
+         </div>
+         <p>moukhtar</p>
+         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, distinctio architecto molestias corrupti id corporis.</span>
+      </div>
+   </section>
+   
+   <!-- section contact -->
+   <section id="contact" class="contact">
+      <h1>contact with me</h1>
+      <div class="contact-content">
+         <input type="text" id="name" placeholder="enter your name...">
+         <input type="email" id="email" placeholder="enter your email...">
+         <textarea id="textarea" rows="5" placeholder="message..."></textarea>
+         <button>Send</button>
+      </div>
+      <div class="link-icon">
+         <i class="fab fa-telegram"><a href="#">+77139488r</a></i>
+         <i class="fab fa-facebook"><a href="#">mohmedamin</a></i>
+         <i class="fab fa-github"><a href="#">m.amin</a></i>
+      </div>
+   </section>
+   <footer>
+      <p>All Rights Reserved © 2026</p>
+   </footer>
+</body>
+
+<script src="main.js"></script>
+</html>
